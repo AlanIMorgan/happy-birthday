@@ -57,7 +57,7 @@
 
       <h1>Jsjsjs jsjs jsjsjsjs</h1>
 
-      <audio loop controls id="song">
+      <audio loop controls autoplay id="song">
         <source src="song.mp3" type="audio/mpeg">
       </audio>
 
@@ -200,8 +200,17 @@
     </div>
 
     <script>
+      function playAudio() {
+        const audio = document.getElementById('song');
+        audio.play();
+      }
+
       document.documentElement.onmouseover(()=>{
-        document.getElementById("song").play();
+        playAudio();
+      })
+
+      document.documentElement.onclick(()=>{
+        playAudio();
       })
     </script>
   </body>
