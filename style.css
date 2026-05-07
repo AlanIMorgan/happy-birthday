@@ -124,6 +124,8 @@
       gap: 1rem;
 
       .sprite {
+
+        filter: hue-rotate(305deg) contrast(0.75);
         position: absolute;
         display: flex;
         align-items: center;
