@@ -107,7 +107,7 @@
     --sprite-tw: calc(var(--sprite-uw) / var(--sprite-c));
 
     > h1 {
-      color: #d2d4e1;
+      color: #f99;
       margin: 0;
       width: fit-content;
       font-weight: 500;
@@ -311,7 +311,6 @@
 
     > h1 {
       font-size: 1.25rem;
-      color: #f99;
     }
 
     .page {
