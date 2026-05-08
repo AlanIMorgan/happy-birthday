@@ -202,11 +202,7 @@
     <script>
       function playAudio() {
         const audio = document.getElementById('song');
-        audio.play();
-      }
-
-      document.body.onmouseover = ()=>{
-        playAudio();
+        audio.paused ? audio.play() : true;
       }
 
       document.body.onclick = ()=>{
